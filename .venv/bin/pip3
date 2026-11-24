@@ -1,0 +1,6 @@
+#!/Users/faridabaddiegmail.com/hello-prisma/M3_Manim_Project/.venv/bin/python
+import sys
+from pip._internal.cli.main import cli
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(cli())
